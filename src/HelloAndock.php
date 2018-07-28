@@ -1,6 +1,6 @@
 <?php
 
-namespace Andock;
+
 
 class HelloAndock {
     public static function sayHello() {
