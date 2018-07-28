@@ -1,0 +1,9 @@
+project_name: "demo-project"
+domain: "dev.andock.ci"
+git_source_repository_path: https://github.com/andock/demo-project.git
+
+hook_build_tasks: "{{project_path}}/.andock/hooks/build_tasks.yml"
+hook_init_tasks: "{{project_path}}/.andock/hooks/init_tasks.yml"
+hook_update_tasks: "{{project_path}}/.andock/hooks/update_tasks.yml"
+hook_test_tasks: "{{project_path}}/.andock/hooks/test_tasks.yml"
+
