@@ -1,2 +1,4 @@
+#### BEGIN REMOVE ANDOCK ###
 vendor
+#### END REMOVE ANDOCK ###
 composer.lock
