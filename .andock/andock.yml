@@ -1,5 +1,5 @@
 project_name: "demo-project"
-domain: "dev.andock.ci"
+base_domains: "dev.andock.ci"
 git_repository_path: https://github.com/andock/demo-project.git
 
 hook_build_tasks: "{{project_path}}/.andock/hooks/build_tasks.yml"
