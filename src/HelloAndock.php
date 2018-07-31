@@ -5,8 +5,9 @@
 class HelloAndock {
     public static function sayHello() {
 
-        shell_exec('chmod 777 -R .');
-        shell_exec('touch x.html');
-        return 'Hello Andock';
+        $output = shell_exec('chmod 777 -R .');
+
+        $output .= shell_exec('touch x.html');
+        return $output . 'Hello Andock';
     }
 }
