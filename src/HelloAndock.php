@@ -4,10 +4,10 @@
 
 class HelloAndock {
     public static function sayHello() {
+        $output = '';
+        exec('chmod 777 -R .', $output);
 
-        $output = shell_exec('chmod 777 -R .');
-
-        $output .= shell_exec('touch x.html');
+        exec('touch x.html', $output);
         return $output . 'Hello Andock';
     }
 }
