@@ -1,1 +1,6 @@
----
+- name: Composer install
+  command: "fin rc -T composer install"
+  args:
+    chdir: "{{ checkout_path }}"
+
+
