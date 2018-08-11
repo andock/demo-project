@@ -8,7 +8,7 @@ virtual_hosts:
   default: "{{ branch }}.demo-project.dev.andock.ci"
 
 ## The git checkout repository.
-git_repository_path: git@github.com:andock/demo-project.git
+git_repository_path: https://github.com/andock/demo-project.git
 
 ## Mounts describe writeable persistent filesystem mounts in the application.
 ## Mounts are linked via volumnes: into the docker environment.
