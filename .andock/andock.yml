@@ -12,8 +12,8 @@ git_repository_path: https://github.com/andock/demo-project.git
 
 ## Mounts describe writeable persistent filesystem mounts in the application.
 ## Mounts are linked via volumnes: into the docker environment.
-# mounts:
-#   - { name: 'files', src: 'files', path: 'docroot/files' }
+mounts:
+  - { name: 'files', src: 'files', path: 'docroot/files' }
 
 ## ansible build hooks.
 ## The hooks that will be triggered when the environment is builded/initialized/updated.
