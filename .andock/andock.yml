@@ -22,4 +22,4 @@ hook_init_tasks: "{{project_path}}/.andock/hooks/init_tasks.yml"
 hook_update_tasks: "{{project_path}}/.andock/hooks/update_tasks.yml"
 hook_test_tasks: "{{project_path}}/.andock/hooks/test_tasks.yml"
 
-
+fin_up_while_build: true
