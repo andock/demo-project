@@ -1,4 +1,4 @@
 
 [andock-docksal-server]
-dev.andock.ci ansible_connection=ssh ansible_user=andock
+127.0.0.1 ansible_connection=ssh ansible_user=andock
 
