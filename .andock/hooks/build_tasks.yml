@@ -2,5 +2,9 @@
   register: whoami
 - debug:
     var: whoami.stdout
+- name: Composer install
+  shell: "fin rc -T composer install"
+  args:
+    chdir: "{{ checkout_path }}"
 
 
