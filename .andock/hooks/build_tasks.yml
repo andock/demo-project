@@ -1,6 +1,6 @@
-- name: Composer install
-  command: "fin rc composer install"
-  args:
-    chdir: "{{ checkout_path }}"
+- command: whoami
+  register: whoami
+- debug:
+    var: whoami.stdout
 
 
