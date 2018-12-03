@@ -2,6 +2,7 @@
 
 ## The name of this application, which must be unique within a andock server.
 project_name: "demo-project"
+project_id: "v1z2kdj"
 
 ## The virtual host configuration pattern.
 virtual_hosts:
