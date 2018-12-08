@@ -6,7 +6,9 @@ project_id: "v1z2kdj"
 
 ## The virtual host configuration pattern.
 virtual_hosts:
-  default: "{{ branch }}.demo-project.dev.andock.ci"
+  default:
+    virtual_host: "{{ branch }}.demo-project.dev.andock.ci"
+    container: web
 
 ## The git checkout repository.
 git_repository_path: https://github.com/andock/demo-project.git
@@ -14,7 +16,8 @@ git_repository_path: https://github.com/andock/demo-project.git
 ## Mounts describe writeable persistent filesystem mounts in the application.
 ## Mounts are linked via volumnes: into the docker environment.
 mounts:
-  - { name: 'files', src: 'files', path: 'docroot/files' }
+  files:
+    path: 'docroot/files'
 
 ## ansible build hooks.
 ## The hooks that will be triggered when the environment is builded/initialized/updated.
@@ -24,4 +27,3 @@ hook_update_tasks: "{{project_path}}/.andock/hooks/update_tasks.yml"
 hook_test_tasks: "{{project_path}}/.andock/hooks/test_tasks.yml"
 
 fin_up_while_build: false
-sudo_nopasswd: true

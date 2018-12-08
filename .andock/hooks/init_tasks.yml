@@ -1,6 +1,5 @@
 - name: Init andock environment
-  command: "touch files/test.text"
+  command: "fin init"
   args:
     chdir: "{{ docroot_path }}"
-  when: environment_exists_before == false
 
