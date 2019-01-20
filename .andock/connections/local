@@ -1,4 +1,0 @@
-
-[andock-docksal-server]
-dev.andock.ci ansible_connection=local ansible_user=andock
-
