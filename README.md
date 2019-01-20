@@ -1,4 +1,4 @@
-![alt text](https://github.com/andock/andock/docs/images/logo_circle.svg "andock")
+![alt text](https://github.com/andock/andock/blob/master/docs/images/logo_circle.svg "andock")
 
 # Andock Demo Project
 
