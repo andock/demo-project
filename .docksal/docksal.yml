@@ -15,4 +15,4 @@ services:
       - HOST_UID
       - HOST_GID
     extra_hosts:
-      - "andock.local:192.168.33.10"
+      - "andock.vagrant:192.168.33.10"
